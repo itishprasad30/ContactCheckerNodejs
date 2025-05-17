@@ -1,0 +1,21 @@
+{
+  "name": "my-contract-backend",
+  "version": "1.0.0",
+  "description": "This is Go to my project pratice my skill",
+  "license": "ISC",
+  "author": "Itish Prasad Sahoo",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
